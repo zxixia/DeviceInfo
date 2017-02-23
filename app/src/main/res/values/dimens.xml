@@ -13,4 +13,5 @@
     <dimen name="calendarview_padding_left">3dp</dimen>
     <dimen name="calendarview_padding_right">3dp</dimen>
     <dimen name="calendarview_padding_bottom">11dp</dimen>
+    <dimen name="info_title">15sp</dimen>
 </resources>
