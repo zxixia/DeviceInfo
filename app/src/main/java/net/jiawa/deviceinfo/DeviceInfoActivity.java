@@ -106,7 +106,8 @@ public class DeviceInfoActivity extends Activity {
 			return _560DPI; /* 560 */
 		if(densityDpi == DisplayMetrics.DENSITY_TV)
 			return TVDPI; /* 213 */
-		throw new RuntimeException("Unsupported densityDpi");
+		return "" + densityDpi;
+		// throw new RuntimeException("Unsupported densityDpi");
 	}
 	
 	private void getDeviceInfoFromBuild(DeviceInfo di){
