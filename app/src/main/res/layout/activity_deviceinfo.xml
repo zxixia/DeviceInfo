@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.jiawa.mytools.deviceinfo.DeviceInfoActivity" 
+    tools:context="net.jiawa.deviceinfo.DeviceInfoActivity"
     android:orientation="vertical">
 
     <!-- 手机基本信息 -->

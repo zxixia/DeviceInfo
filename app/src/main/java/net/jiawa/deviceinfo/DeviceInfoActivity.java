@@ -1,6 +1,6 @@
-package net.jiawa.mytools.deviceinfo;
+package net.jiawa.deviceinfo;
 
-import net.jiawa.mytools.R;
+import net.jiawa.deviceinfo.R;
 import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
