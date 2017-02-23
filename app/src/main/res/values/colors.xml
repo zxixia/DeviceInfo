@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 黑板边框的两种颜色 -->
+    <color name="deviceinfo_blackboard_edge_dark">#ff7a3e1d</color>
+    <color name="deviceinfo_blackboard_edge_light">#ffb77528</color>
+    <!-- 黑板背景的两种颜色 -->
+    <color name="deviceinfo_blackboard_bg_color_dark">#ff172c27</color>
+    <color name="deviceinfo_blackboard_bg_color_light">#fff0e4d8</color>
+
+    <!-- 七彩标准色 -->
+    <color name="chi_dark">#ffe06f99</color>
+    <color name="chi_middle">#fff0a8c0</color>
+    <color name="chi_light">#fff9d0de</color>
+    <color name="cheng_dark">#ffef9903</color>
+    <color name="cheng_middle">#fffabd4a</color>
+    <color name="cheng_light">#ffffdd7c</color>
+    <color name="lv_dark">#ff85ba4e</color>
+    <color name="lv_middle">#ffb9d791</color>
+    <color name="lv_light">#ffd1e1ba</color>
+    <color name="qing_dark">#ff6bbab8</color>
+    <color name="qing_middle">#ffa5d1d2</color>
+    <color name="qing_light">#ffc5e3e5</color>
+    <color name="lan_dark">#ff008fcb</color>
+    <color name="lan_middle">#ff8ecdee</color>
+    <color name="lan_light">#ffc2e0f8</color>
+    <color name="zi_dark">#ff866197</color>
+    <color name="zi_middle">#ffb799bf</color>
+    <color name="zi_light">#ffd4bcd4</color>
+    <!-- 七彩标准色 -->
+    
+    <color name="white">#ffffffff</color>
+    <color name="white_alpha">#a0ffffff</color>
+    <color name="welcome_text_color">#ffbebebe</color>
+</resources>

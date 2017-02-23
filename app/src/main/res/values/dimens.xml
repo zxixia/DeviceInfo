@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="calendarview_year_month_drawable_top">38dp</dimen><!-- 必须是想要的高度加上3dp -->
+    <dimen name="calendarview_week_drawable_top">73dp</dimen><!-- 必须是想要的高度加上@calendarview_year_month_drawable_top的高度 -->
+    <dimen name="calendarview_yearmonth_and_week_textview_height">35dp</dimen> 
+    <!-- 这个值参考 @calendarview_year_month_drawable_top
+    	和@calendarview_week_drawable_top-->
+    <dimen name="calendarview_padding_top">3dp</dimen> <!-- 这四个量是calendarview的有效内部空间区域 -->
+    <dimen name="calendarview_padding_left">3dp</dimen>
+    <dimen name="calendarview_padding_right">3dp</dimen>
+    <dimen name="calendarview_padding_bottom">11dp</dimen>
+</resources>

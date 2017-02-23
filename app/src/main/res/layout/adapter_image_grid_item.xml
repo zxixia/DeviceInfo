@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/framelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <net.jiawa.mytools.imagescan.MeasureSizeImageView
+        android:id="@+id/iv_isa_image_cover"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:background="@drawable/empty"
+        android:scaleType="fitXY" />
+
+    <CheckBox
+        android:id="@+id/cb_isa_checkbox"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/sel_checkbox_icon" />
+
+</FrameLayout>

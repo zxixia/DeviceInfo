@@ -1,0 +1,54 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.jiawa.mytools.deviceinfo.DeviceInfoActivity" 
+    android:orientation="vertical">
+
+    <!-- 手机基本信息 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:text="基本信息:"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"/>
+        <TextView
+            android:id="@+id/tv_device_info"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <!-- Android适配结果 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Android检测结果:"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"/>
+        <TextView
+            android:id="@+id/tv_android_detect_result"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+	
+</LinearLayout>

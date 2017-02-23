@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"> 
+<!-- 最外层的框 -->
+<item
+    android:left="1dp"
+    android:right="1dp"
+    android:bottom="1dp"
+    android:top="1dp"> 
+    <shape>
+       <corners 
+           android:bottomLeftRadius="12dp"
+           android:bottomRightRadius="12dp"/> 
+       <solid android:color="@color/qing_light"/> 
+    </shape> 
+</item>
+<!-- 第二层的白色底板,也就是year_month的书写头部 -->
+<item
+    android:left="@dimen/calendarview_padding_left"
+    android:right="@dimen/calendarview_padding_right"
+    android:bottom="@dimen/calendarview_padding_bottom"
+    android:top="@dimen/calendarview_padding_top"> 
+    <shape>
+       <corners 
+           android:bottomLeftRadius="12dp"
+           android:bottomRightRadius="12dp"/> 
+       <solid android:color="@color/white"/> 
+    </shape> 
+</item>
+<!-- 第三层的头部的星期几的深红色 ，也即是week的书写头部-->
+<item
+    android:left="@dimen/calendarview_padding_left"
+    android:right="@dimen/calendarview_padding_right"
+    android:bottom="@dimen/calendarview_padding_bottom"
+    android:top="@dimen/calendarview_year_month_drawable_top"> 
+    <shape>
+       <corners 
+           android:bottomLeftRadius="12dp"
+           android:bottomRightRadius="12dp"/> 
+       <!-- 渐变颜色说明
+       angle代表从那个角度开始渐变
+       0: 左       ->  右
+       45:左下    ->  右上
+       90:下       ->  上
+       135:右下  ->  左上
+       180:右      ->  左
+       225:右上  ->  左下
+       270:上      -> 下
+       315:左上  ->  右下
+       -->
+       <gradient
+                android:startColor="@color/qing_dark"
+                android:endColor="@color/qing_light"
+                android:angle="315" 
+                android:type="linear"/>
+    </shape> 
+</item>
+<!-- 第四层的空出星期几的头部 -->
+<item
+    android:left="@dimen/calendarview_padding_left"
+    android:right="@dimen/calendarview_padding_right"
+    android:bottom="@dimen/calendarview_padding_bottom"
+    android:top="@dimen/calendarview_week_drawable_top"> 
+    <shape>
+       <corners 
+           android:bottomLeftRadius="12dp"
+           android:bottomRightRadius="12dp"/> 
+       <!-- 渐变颜色说明
+       angle代表从那个角度开始渐变
+       0: 左       ->  右
+       45:左下    ->  右上
+       90:下       ->  上
+       135:右下  ->  左上
+       180:右      ->  左
+       225:右上  ->  左下
+       270:上      -> 下
+       315:左上  ->  右下
+       -->
+       <gradient
+                android:startColor="@color/white"
+                android:endColor="@color/white_alpha"
+                android:angle="270" 
+                android:type="linear"/>
+    </shape> 
+</item>
+</layer-list>

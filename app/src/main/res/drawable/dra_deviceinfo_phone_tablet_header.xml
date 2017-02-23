@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"> 
+<!-- 安卓已知bug。开启硬件加速的机器中，虚线并不能正常显示
+参考网址：http://www.techrepublic.com/blog/software-engineer/pro-tip-add-a-dashed-line-in-an-android-layout/
+需要在要显示虚线框的布局中添加如下定义：
+android:layerType="software" -->
+<!-- 连框颜色值 -->
+<item>
+    <!-- 外框 -->
+    <shape android:shape="rectangle">
+        <corners android:radius="10dp"></corners>
+        <stroke android:width="1dp"
+            android:color="#ff080808"></stroke>
+    </shape> 
+</item>
+<item
+    android:left="2dp"
+    android:top="2dp"
+    android:right="2dp"
+    android:bottom="2dp">
+    <shape android:shape="rectangle">
+        <corners android:radius="10dp"></corners>
+        <stroke android:width="1dp"
+            android:color="#ff000000"></stroke>
+    </shape> 
+</item>
+</layer-list>

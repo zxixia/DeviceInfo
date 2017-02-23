@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ZoomImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="maskColor" format="reference" />
+    </declare-styleable>
+
+</resources>

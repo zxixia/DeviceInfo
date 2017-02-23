@@ -1,0 +1,46 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff282828">
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:focusable="false"
+	    android:clickable="false"
+	    android:orientation="vertical">
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="8"/>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="32"
+	        android:orientation="horizontal">
+	        <View 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"/>
+	        <net.jiawa.mytools.welcome.WelcomeFirstPageLinearLayout
+	            android:id="@+id/wfpll_wa_first_page"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="4">
+	    	</net.jiawa.mytools.welcome.WelcomeFirstPageLinearLayout>
+	    	<View 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"/>
+	    </LinearLayout>
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="40"/>
+	</LinearLayout>
+	<android.support.v4.view.ViewPager
+        android:id="@+id/vp_welcome_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
